@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="homepagesuite">
+    <test name="hometest">
+        <classes>
+
+            <class name="com.funnywebsite.checkBanner"></class>
+            <class name="com.funnywebsite.ButtonTest"></class>
+            <class name="com.funnywebsite.checkMovieHeader"></class>
+            <class name="com.funnywebsite.formTest"></class>
+            <class name="com.funnywebsite.PayHeaderTest"></class>
+        </classes>
+    </test>
+</suite>
